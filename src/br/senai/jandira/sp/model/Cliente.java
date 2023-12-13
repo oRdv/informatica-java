@@ -14,9 +14,9 @@ public class Cliente {
         System.out.println("Informe o Nome do cliente: ");
         setNome(scanner.nextLine());
         System.out.println("Informe o CPF do cliente: ");
-        setCpf(scanner.nextLine());
+        setCpf(scanner.nextInt());
         System.out.println("Informe a Idade do cliente: ");
-        setIdade(scanner.nextLine());
+        setIdade(scanner.nextInt());
         System.out.println("Informe o email do cliente: ");
         setEmail(scanner.nextLine());
 
